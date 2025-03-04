@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.all__wrapper{
+    background-image: url("./images/backk.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 43px;
+    padding-bottom: 236px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.header__link{
+  
+color: rgb(255, 255, 255);
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 0%;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: rgb(245, 117, 32);
+    font-size: 16px;
+    border: 2px dotted white;
+}
+.hero__wrapper{
+    padding-top: 108px;
+}
+.hero__title{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans";
+font-size: 96px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 2%;
+text-align: left;
+width: 679px;
+margin-bottom: 48px;
+}
+.hero__text{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 1%;
+text-align: left;
+width: 645px;
+margin-bottom: 40px;
+}
+.hero__btn{
+    width: 180px;
+    border-radius: 10px;
+/* desk mob cta */
+color: rgb(255, 255, 255);
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 600;
+line-height: 123%;
+border: none;
+text-align: center;
+padding: 16px 0;
+background: rgb(245, 117, 32);
+transition: 0.5s ease-in-out;
+}
+.hero__btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.main{
+    /* 2 grey */
+background: rgb(119, 119, 119);
+padding-top: 109px;
+
+}
+.hero__span{
+    color: rgb(16, 16, 16);
+font-family: Open Sans;
+font-size: 64px;
+font-weight: 800;
+line-height: 123%;
+letter-spacing: 5%;
+margin-left: 490px;
+
+}
+.hero__velosipedi{
+    margin-top: 122px;
+    border-radius: 10px;
+width: 1280px;
+padding: 122px 0;
+background: rgb(245, 117, 32);
+background-image: url("./images/pngwing.png");
+background-repeat: no-repeat;
+background-position: right;
+background-position-y: top;
+}
+.hero__tetx{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+    margin-left: 80px;
+}
+.wrapper{
+    padding-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+.hero__trade{
+    width: 400px;
+    height: 458px;
+    border-radius: 10px;
+background-image: url("./images/velik.png");
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(16, 16, 16);
+background-position-y: 200px;
+background-position-x: -70px;
+padding-top: 80px;
+}
+.trade__text{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 5%;
+text-align: center;
+
+}
+.hero__zapchasti{
+    border-radius: 10px;
+   
+    background-image: url("./images/yarimbalon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 250px;
+padding-top: 29px;
+background-color: rgb(16, 16, 16);
+    width: 400px;
+    height: 216px;
+   margin-bottom: 26px;
+}
+.zapchast__text{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 5%;
+margin-left: 24px;
+}
+.hero__stanki{
+    border-radius: 10px;
+    padding-top: 29px;
+    background-color: rgb(16, 16, 16);
+        width: 400px;
+        height: 216px;
+        background-image: url("./images/image\ 40\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 200px;
+    background-position-y: 35px;
+}
+.stanki__text{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 5%;
+    margin-left: 24px;  
+}
+.hero__ekip{
+    border-radius: 10px;
+   
+    background-image: url("./images/shlem.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 168px;
+    background-position-y: 97px;
+padding-top: 29px;
+background-color: rgb(16, 16, 16);
+width: 400px;
+height: 216px;
+}
+.hero__velostanki{
+    border-radius: 10px;
+    padding-top: 29px;
+    background-color: rgb(16, 16, 16);
+        width: 400px;
+        height: 216px;
+        background-image: url("./images/image\ 39.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 250px;
+    margin-top: 26px;
+}
+.hero__second{
+    padding-top: 109px;
+}
+
+.second__title{
+    color: rgb(16, 16, 16);
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 123%;
+    letter-spacing: 5%;
+    margin-left: 490px;
+    margin-bottom: 170px;
+}
+.second__list{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.second__item{
+    width: 400px;
+    border-radius: 10px;
+   
+     padding-bottom: 80px;
+   transition: 0.5s ease-in-out;
+background: rgb(16, 16, 16);
+}
+.second__head{
+    /* desk mob text 16 */
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 800;
+line-height: 160%;
+margin: 24px 27px;
+text-align: left;
+}
+.second__text{
+    margin-left: 27px;
+    width: 315px;
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 1%;
+text-align: left;
+}
+.second__item:hover{
+    background-color: rgb(245, 117, 32);
+}
+.hero__inputs{
+    background-color: rgb(245, 117, 32);
+    padding: 52px 0;
+    
+    margin-top: 120px;
+    background-image: url("./images/backround.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 480px;
+}
+.inputs__title{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 800;
+line-height: 123%;
+letter-spacing: 5%;
+width: 620px;
+margin-bottom: 92px;
+}
+.inputs__wrapper{
+    width: 610px;
+}
+.hero__input{
+    width: 302px;
+    border-radius: 10px;
+border: none;
+padding: 10px 0;
+margin-bottom: 16px;
+outline: none;
+padding-left: 16px;
+background-color: rgb(255, 255, 255);
+}
+::placeholder{
+    /* desk mob 16 light */
+color: rgb(179, 179, 179);
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+
+text-align: left;
+}
+.big__input{
+    padding-top: 16px;
+    padding-left: 16px;
+    width: 608px;
+   padding-bottom: 150px;
+   border: none;
+   border-radius: 10px;
+outline: none;
+margin-bottom: 24px;
+background: rgb(255, 255, 255);
+}
+.input__btn{
+    width: 608px;
+    padding: 16px 0;
+    border-radius: 10px;
+ /* desk mob cta */
+color: rgb(245, 117, 32);
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 600;
+line-height: 123%;
+transition: 0.5s ease-in-out;
+border: none;
+background: rgb(255, 255, 255);
+}
+.input__btn:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    
+background-color: rgb(16, 16, 16);
+padding-top: 92px;
+padding-bottom: 70px;
+}
+.footer__wrapper{
+    width: 840px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.ktalog{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.footer__link{
+    /* desk mob 24 */
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 160%;
+letter-spacing: 1%;
+text-align: left;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.footer__second{
+    /* desk mob 16 light */
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.footer__link:hover{
+    color: red;
+    font-size: 28px;
+}
+.footer__second:hover{
+    color: red;
+    font-size: 20px;
+}
+
